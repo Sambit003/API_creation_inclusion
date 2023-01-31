@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 });
 
 app.get("/list_books", (req, res) => {
-    fs.readFile(__dirname + '/' + '/movies.json', (err, data) => {
+    fs.readFile(__dirname + '/' + '/books.json', (err, data) => {
         res.end(data);
     });
 });
