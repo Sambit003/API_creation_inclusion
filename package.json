@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "name": "api_creation_inclusion",
+  "version": "1.0.0",
+  "description": "NodeJS API with Express.js which contains the list of books. v1 of this app contains only the GET feature and basic API fetching feature. Will be adding more features and responsiveness and better server load balancer from next version. Keep an eye on the GITHUB folder.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SAMBIIT CHAKRABORTY",
+  "license": "ISC"
+}
